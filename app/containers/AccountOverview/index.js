@@ -45,6 +45,7 @@ export function AccountOverview({
   return (
     <div style={{ paddingTop: '48px' }}>
       <Header
+        displayButton={transactions.length > 0}
         amount={currentBalance.amount}
         debitCredit={currentBalance.debit_credit}
         sortOrder={sortOrder}

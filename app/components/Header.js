@@ -8,7 +8,13 @@ import { formatAmount } from '../containers/AccountOverview/helpers';
 
 // @TODO don't display 0 as default balance
 
-const Header = ({ amount, debitCredit, sortOrder, toggleSort }) => (
+const Header = ({
+  amount,
+  debitCredit,
+  sortOrder,
+  toggleSort,
+  displayButton,
+}) => (
   <AppBar
     position="fixed"
     style={{ padding: '8px 8px 8px 16px', flexDirection: 'row' }}
@@ -17,17 +23,19 @@ const Header = ({ amount, debitCredit, sortOrder, toggleSort }) => (
       Account Balans: <EuroIcon fontSize="inherit" />
       {formatAmount(amount, debitCredit)}
     </Typography>
-    <IconButton
-      onClick={toggleSort}
-      style={{
-        flexGrow: 1,
-        padding: 0,
-        color: 'inherit',
-        transform: sortOrder === 'asc' ? 'scaleX(-1)' : 'none',
-      }}
-    >
-      <SortIcon />
-    </IconButton>
+    {displayButton && (
+      <IconButton
+        onClick={toggleSort}
+        style={{
+          flexGrow: 1,
+          padding: 0,
+          color: 'inherit',
+          transform: sortOrder === 'asc' ? 'scaleX(-1)' : 'none',
+        }}
+      >
+        <SortIcon />
+      </IconButton>
+    )}
   </AppBar>
 );
 
@@ -36,6 +44,7 @@ Header.propTypes = {
   debitCredit: PropTypes.oneOf(['credit', 'debit']),
   sortOrder: PropTypes.oneOf(['asc', 'desc']),
   toggleSort: PropTypes.func,
+  displayButton: PropTypes.bool,
 };
 
 export default Header;
