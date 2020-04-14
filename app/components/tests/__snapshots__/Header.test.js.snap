@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> should render a negative amount 1`] = `
+<header
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+  style={
+    Object {
+      "flexDirection": "row",
+      "padding": "8px 8px 8px 16px",
+    }
+  }
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    Account Balans: 
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15 18.5c-2.51 0-4.68-1.42-5.76-3.5H15l1-2H8.58c-.05-.33-.08-.66-.08-1s.03-.67.08-1H15l1-2H9.24C10.32 6.92 12.5 5.5 15 5.5c1.61 0 3.09.59 4.23 1.57L21 5.3C19.41 3.87 17.3 3 15 3c-3.92 0-7.24 2.51-8.48 6H3l-1 2h4.06c-.04.33-.06.66-.06 1s.02.67.06 1H3l-1 2h4.52c1.24 3.49 4.56 6 8.48 6 2.31 0 4.41-.87 6-2.3l-1.78-1.77c-1.13.98-2.6 1.57-4.22 1.57z"
+      />
+    </svg>
+    -124,77
+  </h6>
+  <button
+    className="MuiButtonBase-root MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "color": "inherit",
+        "flexGrow": 1,
+        "padding": 0,
+        "transform": "none",
+      }
+    }
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
+        />
+      </svg>
+    </span>
+  </button>
+</header>
+`;
+
+exports[`<Header /> should render a positive amount 1`] = `
+<header
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+  style={
+    Object {
+      "flexDirection": "row",
+      "padding": "8px 8px 8px 16px",
+    }
+  }
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    Account Balans: 
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15 18.5c-2.51 0-4.68-1.42-5.76-3.5H15l1-2H8.58c-.05-.33-.08-.66-.08-1s.03-.67.08-1H15l1-2H9.24C10.32 6.92 12.5 5.5 15 5.5c1.61 0 3.09.59 4.23 1.57L21 5.3C19.41 3.87 17.3 3 15 3c-3.92 0-7.24 2.51-8.48 6H3l-1 2h4.06c-.04.33-.06.66-.06 1s.02.67.06 1H3l-1 2h4.52c1.24 3.49 4.56 6 8.48 6 2.31 0 4.41-.87 6-2.3l-1.78-1.77c-1.13.98-2.6 1.57-4.22 1.57z"
+      />
+    </svg>
+    -55,66
+  </h6>
+  <button
+    className="MuiButtonBase-root MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "color": "inherit",
+        "flexGrow": 1,
+        "padding": 0,
+        "transform": "none",
+      }
+    }
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
+        />
+      </svg>
+    </span>
+  </button>
+</header>
+`;
+
+exports[`<Header /> should render without data 1`] = `
+<header
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+  style={
+    Object {
+      "flexDirection": "row",
+      "padding": "8px 8px 8px 16px",
+    }
+  }
+>
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+    style={
+      Object {
+        "flexGrow": 1,
+      }
+    }
+  >
+    Account Balans: 
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit"
+      focusable="false"
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M15 18.5c-2.51 0-4.68-1.42-5.76-3.5H15l1-2H8.58c-.05-.33-.08-.66-.08-1s.03-.67.08-1H15l1-2H9.24C10.32 6.92 12.5 5.5 15 5.5c1.61 0 3.09.59 4.23 1.57L21 5.3C19.41 3.87 17.3 3 15 3c-3.92 0-7.24 2.51-8.48 6H3l-1 2h4.06c-.04.33-.06.66-.06 1s.02.67.06 1H3l-1 2h4.52c1.24 3.49 4.56 6 8.48 6 2.31 0 4.41-.87 6-2.3l-1.78-1.77c-1.13.98-2.6 1.57-4.22 1.57z"
+      />
+    </svg>
+    -NaN
+  </h6>
+  <button
+    className="MuiButtonBase-root MuiIconButton-root"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    style={
+      Object {
+        "color": "inherit",
+        "flexGrow": 1,
+        "padding": 0,
+        "transform": "none",
+      }
+    }
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <svg
+        aria-hidden="true"
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M3 18h6v-2H3v2zM3 6v2h18V6H3zm0 7h12v-2H3v2z"
+        />
+      </svg>
+    </span>
+  </button>
+</header>
+`;
