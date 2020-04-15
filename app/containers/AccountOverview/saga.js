@@ -6,9 +6,9 @@ import { fetchAccountSucceeded, fetchAccountFailed } from './actions';
 export function* getAccountSaga() {
   try {
     // Call our request helper (see 'utils/request')
-    const transactions = yield call(request, requestURL);
+    const accountInfo = yield call(request, requestURL);
     // they are balances and transactions. find a better name
-    yield put(fetchAccountSucceeded(transactions));
+    yield put(fetchAccountSucceeded(accountInfo));
   } catch (err) {
     yield put(fetchAccountFailed());
   }

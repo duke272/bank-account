@@ -27,21 +27,23 @@ Array [
       <p
         className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
       >
-        <p
+        <span
           title="omschrijving"
         >
           description of transaction
-        </p>
-        <p
+        </span>
+        <br />
+        <span
           title="naam"
         >
           Henk de Vries
-        </p>
-        <p
+        </span>
+        <br />
+        <span
           title="iban"
         >
           NL22RABO3154100547
-        </p>
+        </span>
       </p>
     </div>
   </li>,
@@ -78,16 +80,18 @@ Array [
       <p
         className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
       >
-        <p
+        <span
           title="omschrijving"
         >
           description of transaction
-        </p>
-        <p
+        </span>
+        <br />
+        <span
           title="naam"
         >
           Henk de Vries
-        </p>
+        </span>
+        <br />
       </p>
     </div>
   </li>,

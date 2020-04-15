@@ -2,25 +2,24 @@ import React from 'react';
 import PropTypes from 'prop-types';
 import { Divider, ListItem, ListItemText } from '@material-ui/core';
 import EuroIcon from '@material-ui/icons/Euro';
-import { formatAmount } from '../containers/AccountOverview/helpers';
 
-// @TODO dont use formatamount here
-
-const Transaction = ({ trans }) => (
+const Transaction = ({ transaction }) => (
   <>
     <ListItem>
       <ListItemText
         primary={
           <>
             <EuroIcon fontSize="inherit" />
-            {formatAmount(trans.amount, trans.debit_credit)}
+            {transaction.formattedAmount}
           </>
         }
         secondary={
           <>
-            <p title="omschrijving">{trans.description}</p>
-            <p title="naam">{trans.name}</p>
-            {trans.iban && <p title="iban">{trans.iban}</p>}
+            <span title="omschrijving">{transaction.description}</span>
+            <br />
+            <span title="naam">{transaction.name}</span>
+            <br />
+            {transaction.iban && <span title="iban">{transaction.iban}</span>}
           </>
         }
       />
@@ -30,9 +29,8 @@ const Transaction = ({ trans }) => (
 );
 
 Transaction.propTypes = {
-  trans: PropTypes.shape({
-    amount: PropTypes.number.isRequired,
-    debit_credit: PropTypes.oneOf(['credit', 'debit']).isRequired,
+  transaction: PropTypes.shape({
+    formattedAmount: PropTypes.string,
     description: PropTypes.string.isRequired,
     name: PropTypes.string.isRequired,
     iban: PropTypes.string,

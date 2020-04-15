@@ -7,7 +7,7 @@ import {
 
 export const initialState = {
   loading: false,
-  transactions: [],
+  accountInfo: [],
   currentBalance: { amount: 0, debit_credit: 'debit' },
   sorting: 1,
 };
@@ -23,8 +23,7 @@ const accountOverviewReducer = (state = initialState, action) => {
     case FETCH_ACCOUNT_SUCCEEDED:
       return {
         ...state,
-        transactions: action.transactions,
-        balance: action.balances,
+        accountInfo: action.accountInfo,
         loading: false,
       };
     case FETCH_ACCOUNT_FAILED:

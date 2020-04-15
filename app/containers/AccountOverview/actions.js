@@ -11,10 +11,10 @@ export function fetchAccount() {
   };
 }
 
-export function fetchAccountSucceeded(transactions) {
+export function fetchAccountSucceeded(accountInfo) {
   return {
     type: FETCH_ACCOUNT_SUCCEEDED,
-    transactions,
+    accountInfo,
   };
 }
 

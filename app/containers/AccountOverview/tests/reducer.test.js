@@ -13,7 +13,7 @@ describe('accountOverviewReducer', () => {
   });
 
   it('should handle the fetchAccountSucceeded action correctly', () => {
-    const transactions = [
+    const accountInfo = [
       {
         id: '0315778504.2017-06-20',
         iban: 'NL92RABO0315778504',
@@ -384,11 +384,11 @@ describe('accountOverviewReducer', () => {
 
     const expectedResult = {
       ...state,
-      transactions,
+      accountInfo,
     };
 
     expect(
-      accountOverviewReducer(state, fetchAccountSucceeded(transactions)),
+      accountOverviewReducer(state, fetchAccountSucceeded(accountInfo)),
     ).toEqual(expectedResult);
   });
 });

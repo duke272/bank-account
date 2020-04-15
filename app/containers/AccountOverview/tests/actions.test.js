@@ -30,13 +30,13 @@ describe('AccountOverview Actions', () => {
   });
 
   describe('fetchAccountSucceeded', () => {
-    const transactions = { just: 'some object' };
+    const accountInfo = { just: 'some object' };
     it('should return the correct type and the passed name', () => {
       const expectedResult = {
         type: FETCH_ACCOUNT_SUCCEEDED,
-        transactions,
+        accountInfo,
       };
-      expect(fetchAccountSucceeded(transactions)).toEqual(expectedResult);
+      expect(fetchAccountSucceeded(accountInfo)).toEqual(expectedResult);
     });
   });
 });

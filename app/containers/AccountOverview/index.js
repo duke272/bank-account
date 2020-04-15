@@ -14,7 +14,7 @@ import { useInjectSaga } from 'utils/injectSaga';
 import reducer from './reducer';
 import {
   makeSelectLoading,
-  makeSelectTransactions,
+  makeSelectAccountInfo,
   makeSelectCurrentBalance,
   makeSelectSortOrder,
 } from './selectors';
@@ -29,7 +29,7 @@ const key = 'accountOverview';
 
 export function AccountOverview({
   loading,
-  transactions,
+  accountInfo,
   currentBalance,
   sortOrder,
   getAccount,
@@ -45,9 +45,8 @@ export function AccountOverview({
   return (
     <div style={{ paddingTop: '48px' }}>
       <Header
-        displayButton={transactions.length > 0}
-        amount={currentBalance.amount}
-        debitCredit={currentBalance.debit_credit}
+        displayButton={accountInfo.length > 0}
+        currentBalance={currentBalance}
         sortOrder={sortOrder}
         toggleSort={toggleSort}
       />
@@ -56,15 +55,15 @@ export function AccountOverview({
           <CircularProgress color="inherit" />
         </Backdrop>
       )}
-      <TransactionList transactions={transactions} />
+      <TransactionList accountInfo={accountInfo} />
     </div>
   );
 }
 
 AccountOverview.propTypes = {
   loading: PropTypes.bool,
-  transactions: PropTypes.array,
-  currentBalance: PropTypes.object,
+  accountInfo: PropTypes.array,
+  currentBalance: PropTypes.string,
   getAccount: PropTypes.func,
   toggleSort: PropTypes.func,
   sortOrder: PropTypes.oneOf(['asc', 'desc']),
@@ -72,7 +71,7 @@ AccountOverview.propTypes = {
 
 const mapStateToProps = createStructuredSelector({
   loading: makeSelectLoading(),
-  transactions: makeSelectTransactions(),
+  accountInfo: makeSelectAccountInfo(),
   currentBalance: makeSelectCurrentBalance(),
   sortOrder: makeSelectSortOrder(),
 });
@@ -107,23 +106,24 @@ TODO
 [X] Loading state
 [X] unit tests
 [X] clean up boiler plate stuff
-[ ] rename transactions const
-[ ] cypress tests
+[X] rename transactions const
+[X] cypress tests
 [ ] sorting? -> update tests
+
 [ ] filtering?
 [ ] refreshing?
-
 [ ] React Native app?
 [ ] display dates/currencies in users locale
 [ ] styled-components for styles
 [X] move helper functions
 [ ] make things more pretty
-[ ] dont use p in secondary text
+[X] dont use p in secondary text
 [X] find missing key in loop
 [ ] sticky headers.
 [ ] Typescript
 [ ] Shallow render unit tests
 [ ] Error state
 [ ] remove/combine/simplify mock data in unit tests
+[ ] normalize state
 
  */

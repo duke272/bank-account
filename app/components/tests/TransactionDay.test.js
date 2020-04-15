@@ -2,10 +2,11 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import TransactionDay from '../TransactionDay';
 
-const transaction = {
+const transactionDay = {
   id: '0315778504.2017-07-19',
   iban: 'NL92RABO0315778504',
   date: '2017-07-19T20:40:29.000Z',
+  formattedDate: '19-07-2017',
   balances: [
     { amount: 4861.79, debit_credit: 'credit', date: '2017-07-18' },
     { amount: 4836.77, debit_credit: 'credit', date: '2017-07-19' },
@@ -14,24 +15,21 @@ const transaction = {
     {
       iban: '',
       name: 'Bizcuit',
-      amount: 0.02,
-      debit_credit: 'debit',
+      formattedAmount: '+0,02',
       date: '2017-07-19',
       description: 'Betalingsnummer 2913045c',
     },
     {
       iban: '',
       name: 'Bizcuit',
-      amount: 10,
-      debit_credit: 'debit',
+      formattedAmount: '+10,00',
       date: '2017-07-19',
       description: 'Betalingsnummer e1e33717',
     },
     {
       iban: '',
       name: 'Bizcuit',
-      amount: 15,
-      debit_credit: 'debit',
+      formattedAmount: '+15,00',
       date: '2017-07-19',
       description: 'Betalingsnummer 67805d60',
     },
@@ -41,7 +39,7 @@ const transaction = {
 describe('<TransactionDay />', () => {
   it('should render', () => {
     const tree = renderer
-      .create(<TransactionDay transaction={transaction} />)
+      .create(<TransactionDay transactionDay={transactionDay} />)
       .toJSON();
     expect(tree).toMatchSnapshot();
   });

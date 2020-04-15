@@ -69,16 +69,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 2913045c
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -111,16 +113,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer e1e33717
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -153,16 +157,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 67805d60
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -239,16 +245,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer b44893ce
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -281,16 +289,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 80cdc42c
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -367,16 +377,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer be0dc54c
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -453,16 +465,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer be87ad7a
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -539,16 +553,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Debetrente, Periode 01-04-2017 t/m 30-06-2017
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Debetrente
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -581,16 +597,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Kosten, Periode 01-04-2017 t/m 30-06-2017
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Kosten
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -667,16 +685,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer b33bc436
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -753,21 +773,23 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               MINOX B.V., Vendelier 25 27 3905PB VEENENDAAL Nederland NL, Aanvulling saldo (ivm KiKi donaties op Accountancy Expo)
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               MINOX B.V.
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="iban"
             >
               NL22RABO3154100547
-            </p>
+            </span>
           </p>
         </div>
       </li>
@@ -799,16 +821,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer d1709be2
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -841,16 +865,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 5da68160
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -883,16 +909,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer fd45ce68
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -925,16 +953,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer fa1d856e
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -967,16 +997,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer ec38d047
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1009,16 +1041,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 47b41578
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1051,16 +1085,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer f01b9081
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1093,16 +1129,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer a4f651b2
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1135,16 +1173,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 42850372
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1177,16 +1217,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer b2bf2205
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1219,16 +1261,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer e49023ac
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1261,16 +1305,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 3b9e870e
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1303,16 +1349,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 53be1da9
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1345,16 +1393,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 5231b267
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1387,16 +1437,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 63377f6d
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1429,16 +1481,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 7fdfb9f4
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1471,16 +1525,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 68129304
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>
@@ -1513,16 +1569,18 @@ Array [
           <p
             className="MuiTypography-root MuiListItemText-secondary MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
           >
-            <p
+            <span
               title="omschrijving"
             >
               Betalingsnummer 12e0dfbb
-            </p>
-            <p
+            </span>
+            <br />
+            <span
               title="naam"
             >
               Bizcuit
-            </p>
+            </span>
+            <br />
             
           </p>
         </div>

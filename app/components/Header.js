@@ -4,24 +4,17 @@ import { AppBar, Typography } from '@material-ui/core';
 import EuroIcon from '@material-ui/icons/Euro';
 import IconButton from '@material-ui/core/IconButton';
 import SortIcon from '@material-ui/icons/Sort';
-import { formatAmount } from '../containers/AccountOverview/helpers';
 
-// @TODO don't display 0 as default balance
+// @TODO don't display 0 before data is loaded
 
-const Header = ({
-  amount,
-  debitCredit,
-  sortOrder,
-  toggleSort,
-  displayButton,
-}) => (
+const Header = ({ currentBalance, sortOrder, toggleSort, displayButton }) => (
   <AppBar
     position="fixed"
     style={{ padding: '8px 8px 8px 16px', flexDirection: 'row' }}
   >
     <Typography variant="h6" style={{ flexGrow: 1 }}>
       Account Balans: <EuroIcon fontSize="inherit" />
-      {formatAmount(amount, debitCredit)}
+      {currentBalance}
     </Typography>
     {displayButton && (
       <IconButton
@@ -40,11 +33,10 @@ const Header = ({
 );
 
 Header.propTypes = {
-  amount: PropTypes.number,
-  debitCredit: PropTypes.oneOf(['credit', 'debit']),
-  sortOrder: PropTypes.oneOf(['asc', 'desc']),
-  toggleSort: PropTypes.func,
-  displayButton: PropTypes.bool,
+  currentBalance: PropTypes.string.isRequired,
+  sortOrder: PropTypes.oneOf(['asc', 'desc']).isRequired,
+  toggleSort: PropTypes.func.isRequired,
+  displayButton: PropTypes.bool.isRequired,
 };
 
 export default Header;
